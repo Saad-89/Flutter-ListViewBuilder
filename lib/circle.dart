@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 
 class MyCircleStory extends StatelessWidget {
-  const MyCircleStory({super.key});
+  final String story;
+  const MyCircleStory({super.key, required this.story});
 
   @override
   Widget build(BuildContext context) {
     return Container(
+      height: 100,
+      width: 70,
       margin: EdgeInsets.symmetric(horizontal: 2),
-      child: CircleAvatar(maxRadius: 50, backgroundColor: Colors.blue),
+      decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.blue),
+      child: Center(child: Text(story)),
     );
   }
 }

@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       color: Colors.white,
       title: 'ListView Builder',
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }

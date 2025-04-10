@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class SquarePost extends StatelessWidget {
-  const SquarePost({super.key});
+  final String post;
+  const SquarePost({super.key, required this.post});
 
   @override
   Widget build(BuildContext context) {
@@ -10,6 +11,7 @@ class SquarePost extends StatelessWidget {
 
       height: 200,
       color: Colors.blue,
+      child: Center(child: Text(post)),
     );
   }
 }
