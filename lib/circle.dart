@@ -8,7 +8,7 @@ class MyCircleStory extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 100,
-      width: 70,
+      width: 75,
       margin: EdgeInsets.symmetric(horizontal: 2),
       decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.blue),
       child: Center(child: Text(story)),

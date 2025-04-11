@@ -9,7 +9,7 @@ class SquarePost extends StatelessWidget {
     return Container(
       margin: EdgeInsets.symmetric(vertical: 8),
 
-      height: 200,
+      height: 205,
       color: Colors.blue,
       child: Center(child: Text(post)),
     );
